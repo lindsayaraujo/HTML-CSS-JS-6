@@ -1,3 +1,25 @@
+.titulo-principal{
+  padding-left: 30px;
+}
+
+.principal {
+  baclground-color: #CCCCCC ;
+  padding; 30;
+}
+
+.titulo-centralizado {
+text-align: center;
+}
+
 p {
   text-align: center;
 }
+
+#missao{
+  font-size: 20px;
+}
+
+em {
+  color:deeppink;
+}
+
