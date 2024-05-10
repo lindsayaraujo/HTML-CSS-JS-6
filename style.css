@@ -2,13 +2,13 @@
   padding-left: 30px;
 }
 
-.principal {
-  baclground-color: #CCCCCC ;
-  padding; 30;
+.principal{
+  background-color: #CCCCCC;
+  padding: 30px;
 }
 
-.titulo-centralizado {
-text-align: center;
+.titulo-centralizado{
+  text-align: center;
 }
 
 p {
@@ -19,7 +19,25 @@ p {
   font-size: 20px;
 }
 
-em {
-  color:deeppink;
+em strong{
+  color: crimson;
 }
 
+#banner{
+  width: 100%;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+#beneficios {
+  width: 50%;
+}
+
+.item {
+  font-style: italic;
+}
