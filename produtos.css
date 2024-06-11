@@ -1,5 +1,5 @@
 header {
-  background: #BBBBBB;
+  background-color: lightslategray;
   padding: 20px 0;
 }
 
@@ -9,29 +9,29 @@ header {
   margin: 0 auto;
 }
 
-nav {
+nav{
   position: absolute;
   top: 110px;
   right: 0;
-  }
+}
 
-
-nav  li {
+nav li{
   display: inline;
   margin-left: 15px;
-}
+    }
 
 nav a{
   color: #000000;
-text-decoration: none;
+  text-decoration: none;
   font-weight: bold;
   font-size: 22px;
   text-transform: uppercase;
-}
+}  
+
 nav a:hover{
-  color: #C78C19;
+  color: gold;
   text-decoration: underline;
-  }
+}
 
 .produtos{
   width: 940px;
@@ -67,25 +67,25 @@ nav a:hover{
 }
 
 .produtos li:hover{
-  border-color: #C78C19;
+  border-color: gold;
 }
 
 .produtos li:hover h2{
- font-size: 34px;
+  font-size: 34px;
 }
 
 .produtos li:active{
-  border-color: #088C19;
+  border-color: slateblue;
 }
 
 footer{
   text-align: center;
-  background: url("bg.jpg");
+  background: url(bg.jpg);
   padding: 40px 0;
 }
 
 .copyright{
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 13px;
   margin-top: 20px;
 }
@@ -97,4 +97,17 @@ main{
 
 form{
   margin: 40px 0;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.input-padrao{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
 }
